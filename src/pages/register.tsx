@@ -4,7 +4,6 @@ import { Box, Button } from '@chakra-ui/core'
 import { Wrapper } from '../components/Wrapper'
 import { useRouter } from 'next/router'
 import { InputField } from '../components/InputField'
-import { useMutation } from 'urql'
 import { useRegisterMutation } from '../generated/graphql'
 import { toErrorMap } from '../utils/toErrorMap'
 
