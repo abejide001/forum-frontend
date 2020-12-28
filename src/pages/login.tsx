@@ -33,11 +33,11 @@ export const Login: React.FC<loginProps> = ({ }) => {
                             <InputField name="password" placeholder="password" label="Password" type="password" required />
                         </Box>
                         <Flex mt={2}>
-                        <Box>
-                            <NextLink href="/forgot-password">
-                                <Link ml="auto">forget password?</Link>
-                            </NextLink>
-                        </Box>
+                            <Box>
+                                <NextLink href="/forgot-password">
+                                    <Link ml="auto">forget password?</Link>
+                                </NextLink>
+                            </Box>
                         </Flex>
                         <Button type="submit" variantColor="teal" mt={4} isLoading={isSubmitting}>Login</Button>
                     </Form>
