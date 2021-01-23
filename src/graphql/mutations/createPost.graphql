@@ -1,0 +1,12 @@
+#Write your query or mutation here
+mutation CreatePost($input: PostInput!) {
+  createPost(input: $input) {
+    title
+    createdAt
+    updatedAt
+    text
+    points
+    creatorId
+    id
+  }
+}
